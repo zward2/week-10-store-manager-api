@@ -1,0 +1,11 @@
+### Test the types
+### types are the product types
+# Product types (or product classes) are groups of products which share the same attributes.
+
+# Product attributes contain additional product information, e.g. ISBN, UPC, Brand, which is displayed in storefront and included in product feeds when exporting to marketplaces like Google Shopping, eBay, Amazon ads etc.
+
+GET http://localhost:3001/product-types
+
+### Test creating a type
+
+### Test the PUT which should change a type

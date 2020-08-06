@@ -1,0 +1,8 @@
+### Test the stores
+### stores are the customers such as each golf course
+
+GET http://localhost:3001/stores
+
+### Test creating a store
+
+### Test the PUT which should change a store

@@ -1,0 +1,19 @@
+### Test the home page endpoint
+
+GET http://localhost:3001/logos
+
+### Test creating a logo after you build the code for adding a logo
+POST http://localhost:3001/logos
+Content-Type: application/json
+
+{
+  "name": "Tiger Woods"
+}
+
+### Test the PUT which should change a logo
+PUT http://localhost:3001/logos/
+Content-Type: application/json
+
+{
+  "name": "Super Logo"
+}

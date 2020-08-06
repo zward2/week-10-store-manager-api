@@ -1,0 +1,8 @@
+### Test the stores
+### variations are the product variations
+
+GET http://localhost:3001/variations
+
+### Test creating a variation
+
+### Test the PUT which should change a variation

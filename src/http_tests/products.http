@@ -1,0 +1,23 @@
+### Test the home page endpoint
+
+GET http://localhost:3001/products
+
+### Test creating a product
+POST http://localhost:3001/products
+Content-Type: application/json
+
+{
+  "title": "Golf Pajamas",
+  "description": "The great golf pants"
+}
+
+### Test the PUT which should change a product
+### id of 5f2b54de320478eb4b1603eb is temporary while server is running
+PUT http://localhost:3001/product
+Content-Type: application/json
+
+{
+  "title": "Amazing UV Shirt"
+}
+
+
