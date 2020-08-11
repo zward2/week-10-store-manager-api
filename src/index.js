@@ -15,6 +15,7 @@ app.get('/', async (req, res) => {
 });
 
 app.use('/products', require('./routes/productsRoutes'))
+app.use('/stores', require('./routes/storesRoutes'))
 app.use('/logos', require('./routes/logosRoutes'))
 
 // connect to our database

@@ -7,7 +7,7 @@ POST http://localhost:3001/logos
 Content-Type: application/json
 
 {
-  "name": "Tiger Woods"
+  "name": "Waldo"
 }
 
 ### Test the PUT which should change a logo
@@ -15,5 +15,10 @@ PUT http://localhost:3001/logos/
 Content-Type: application/json
 
 {
-  "name": "Super Logo"
+  "name": "Where's the Ball",
+  "color": "Red"
 }
+
+### Test Delete
+DELETE http://localhost:3001/logos/5f2c931f97989f2a807c45c5
+Content-Type: application/json

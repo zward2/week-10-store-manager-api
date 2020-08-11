@@ -1,8 +1,25 @@
-### Test the stores
-### stores are the customers such as each golf course
+### Test the home page endpoint
 
-GET http://localhost:3001/stores
+GET http://localhost:3001/categories
 
-### Test creating a store
+### Test creating a category
+POST http://localhost:3001/categories
+Content-Type: application/json
 
-### Test the PUT which should change a store
+{
+  "title": "Men's Clothing"
+  "description": "The great golf pants"
+}
+
+### Test the PUT which should change a category
+
+PUT http://localhost:3001/categories
+Content-Type: application/json
+
+{
+  "title": "Amazing UV Shirt"
+}
+
+### Test the Delete which should delete a category  
+
+

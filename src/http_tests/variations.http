@@ -1,8 +1,16 @@
 ### Test the stores
 ### variations are the product variations
-
 GET http://localhost:3001/variations
-
 ### Test creating a variation
-
+POST http://localhost:3001/variations
+Content-Type: application/json
+{
+  "title": "Deez Golf Ballz",
+  "description": "Allways a hole in one"
+}
 ### Test the PUT which should change a variation
+PUT http://localhost:3001/variations
+Content-Type: application/json
+###Delete entry
+DELETE http://localhost:3001/variations
+Content-Type: application/json
